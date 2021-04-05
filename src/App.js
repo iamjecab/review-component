@@ -1,11 +1,12 @@
 import React from "react";
 import GlobalStyles from "./Components/GlobalStyles";
+import Review from "./Components/Review";
 
 function App() {
     return (
         <>
             <GlobalStyles />
-            <h2>Jesus</h2>
+            <Review />
         </>
     );
 }
